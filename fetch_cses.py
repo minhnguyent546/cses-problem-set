@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+"""
+Example of usage
+
+$fetch_cses 1068 # fetch input/output file
+$fetch_cses -cs 1068 # fetch input/output and automatically open created file with Sublime Text (see the comment below on how to use your custom template generator)
+"""
+
 import argparse
 import logging
 import re
